@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kachoriya Software </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+        }
+
+        .navbar .menu-item {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            font-size: 14px;
+            transition: 0.25s;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar .menu-item:hover {
+            color: #eba12c;
+            ;
+        }
+        .navbar .menu-items li:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .navbar .menu-item:hover {
+            color: #ff5722;
+        }
+
+        .navbar .blog .content .col .menu-title a:hover {
+            color: #ff5722;
+        }
+
+        .navbar .content .col .img-wrapper:hover img {
+            transform: scale(1.1);
+        }
+
+        .navbar ul li {
+            list-style: none;
+            transition: 0.3s ease;
+        }
+        .menu-btn {
+            text-align: center;
+            justify-content: center;
+            padding: 10px 10px;
+            color: white;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .jaam {
+            border: 1px solid #eba12c;
+            border-radius: 50%;
+            color: white;
+            background-color: #eba12c;
+            text-align: center;
+        }
+
+        .btn_2 {
+            border: 1px solid #eba12c;
+            border-radius: 30px;
+            background-color: #eba12c;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px 10px 5px 10px;
+            margin-left: 15px;
+        }
+
+        .btn_2:hover {
+            border: 1px solid white;
+            border-radius: 30px;
+            background-color: transparent;
+            color: white;
+        }
+        .home_img{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.10),
+                       rgba(0, 0, 0, 0.10)),url("home_bg.png");
+            opacity: 0.25;
+            position: relative;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1; 
+    color: white;
+    top: 0;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        .home_img h1{
+            font-size:50px;
+            font-weight: bold;
+        }
+      .home_img p{
+        font-size:17px;
+      }
+        .btn_3{
+            border: 1px solid #e6920b;
+            background-color: #e6920b;
+            color: white;
+            border-radius:20px;
+            font-size: 15px;
+            padding: 7px 20px 7px 20px;
+        }
+        .btn_3:hover{
+            background-color: transparent;
+            color:#e6920b;
+            font-weight:400;
+        }
+        .headdd{
+            padding-top: 200px;
+        } -->
+    <!-- </style>
+    
+</head>
+
+<body>
+    <section class=" bg-dark">
+        <header class="navbar sticky container">
+            <div>
+                <img src="kuchoriya (1).png" width="80px">
+            </div>
+            <ul class="menu-items d-flex latest">
+                <li><a href="#" class="menu-item">Home Page</a></li>
+                <li>
+                    <a href="#" class="menu-item">Who are we</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown dropdown-right ">
+                            <a href="#" class="menu-item expand-btn">
+                                Compnay
+                            </a>
+                            <ul class="dropdown-menu menu-right sample ">
+                                <li><a href="/about-us" class="menu-item">about-us</a></li>
+                                <li><a href="/about-us#our_team" class="menu-item">Our-team</a></li>
+                                <li><a href="/career" class="menu-item">Career</a></li>
+                                <li><a href="/contact-us" class="menu-item">Contact-us</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-right ">
+                            <a href="#" class="menu-item expand-btn">
+                                Why Kuchoriya
+                            </a>
+                            <ul class="dropdown-menu menu-right sample">
+                                <li><a href="/client-reviews" class="menu-item">client-reviews</a></li>
+                                <li><a href="/our-clients" class="menu-item">Our Client</a></li>
+                                <li><a href="/our-patners" class="menu-item">Our Patners</a></li>
+                                <li><a href="/awards" class="menu-item">Awards & Membership</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-right ">
+                            <a href="#" class="menu-item expand-btn">
+                                Partner With us
+                            </a>
+                            <ul class="dropdown-menu menu-right sample">
+                                <li><a href="/associate-partnership" class="menu-item">Associate Partnership
+                                    </a></li>
+                                <li><a href="/strategic-partnership" class="menu-item">Strategic Partnership</a></li>
+                                <li><a href="/referral-partnership" class="menu-item">Referral Partnership</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item">Dropdown Left</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="menu-item">Item 1</a></li>
+                        <li><a href="#" class="menu-item">Item 2</a></li>
+                        <li><a href="#" class="menu-item">Item 3</a></li>
+                        <li class="dropdown dropdown-right">
+                            <a href="#" class="menu-item expand-btn">
+                                Item 4
+                            </a>
+                            <ul class="dropdown-menu menu-left sample">
+                                <li><a href="#" class="menu-item">Item 4.1</a></li>
+                                <li><a href="#" class="menu-item">Item 4.2</a></li>
+                                <li><a href="#" class="menu-item">Item 4.3</a></li>
+                                <li><a href="#" class="menu-item">Item 4.4</a></li>
+                                <li><a href="#" class="menu-item">Item 4.5</a></li>
+                                <li><a href="#" class="menu-item">Item 4.6</a></li>
+                                <li><a href="#" class="menu-item">Item 4.7</a></li>
+                                <li><a href="#" class="menu-item">Item 4.8</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="menu-item">Item 5</a></li>
+                    </ul>
+                </li>
+                <li class="dropdownMega">
+                    <a href="#" class="menu-item">Mega Menu</a>
+                    <div class="dropdown-menu mega-menu category">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <div class="menu-title">Category 1</div>
+                                    <a href="#" class="img-wrapper"><span class="img"><img
+                                                src="https://picsum.photos/400?random=1" alt="Random Image"></span></a>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <div class="menu-title">Category 2</div>
+                                    <ul class="mega-links">
+                                        <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
+                                        <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
+                                        <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
+                                        <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
+                                        <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <div class="menu-title">Category 3</div>
+                                    <ul class="mega-links">
+                                        <li><a href="#" class="menu-item">Item 1</a></li>
+                                        <li><a href="#" class="menu-item">Item 2</a></li>
+                                        <li><a href="#" class="menu-item">Item 3</a></li>
+                                        <li><a href="#" class="menu-item">Item 4</a></li>
+                                        <li><a href="#" class="menu-item">Item 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <div class="menu-title">Category 4</div>
+                                    <ul class="mega-links">
+                                        <li><a href="#" class="menu-item">Item 1</a></li>
+                                        <li><a href="#" class="menu-item">Item 2</a></li>
+                                        <li><a href="#" class="menu-item">Item 3</a></li>
+                                        <li><a href="#" class="menu-item">Item 4</a></li>
+                                        <li><a href="#" class="menu-item">Item 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdownMega">
+                    <a href="#" class="menu-item">Blog</a>
+                    <div class="dropdown-menu mega-menu blog">
+                        <div class="content">
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img
+                                            src="https://picsum.photos/400?random=2" alt="Random Image"></span></a>
+                                <h3 class="menu-title"><a href="">Your Title</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img
+                                            src="https://picsum.photos/400?random=3" alt="Random Image"></span></a>
+                                <h3 class="menu-title"><a href="">Your Title</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img
+                                            src="https://picsum.photos/400?random=4" alt="Random Image"></span></a>
+                                <h3 class="menu-title"><a href="">Your Title</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="img-wrapper"><span class="img"><img
+                                            src="https://picsum.photos/400?random=5" alt="Random Image"></span></a>
+                                <h3 class="menu-title"><a href="">Your Title</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="menu-item">Contact Us</a></li>
+                <li class="jaam"> <a> <i class="fa-solid fa-phone-volume menu-btn"></i></a></li>
+                <button class="btn_2"> Request A Quote </button>
+            </ul>
+        </header>
+    </section>
+    <section style="background-color:rgba(0,0,0,0.1)" >
+        
+          <div class="home_img py-5">
+            <div class="text-center  headdd">
+                <h1>Innovative Software Solutions <br>
+                    For A Changing World</h1>
+                    <p>We design software solutions that accelerate progress and adapt to our world's ever-changing <br>landscape.
+                    </p>
+                    <div class="text-center py-5">
+                        <button class="btn_3"> Free Consulting</button>
+                    </div>
+            </div>
+        </div>
+    
+         -->
+<!--            
+    </section> -->
+    <!-- <script src="java.js"></script> -->
+         <!-- To DO Project  -->
+
+        <section class="text-center bg-primary">
+            <div>
+                <h1> Simple DOM TODO List Project</h1>
+            <input type="text" id="inputfiled">
+            <button class="btn"> click me</button>
+            <div class="todoListElem"> 
+              
+            </div>
+        </section>
+     <script>
+const addToDo = () => {
+    console.log(getElem.value);
+    // todoFirst.textContent = getElem.value;
+    let pelEelm = document.createElement("p");
+    pelEelm.textContent=getElem.value;
+    // console.log(pelEelm);
+    todoElemPra.append(pelEelm);
+    getElem.value="";
+
+}
+      let getElem = document.getElementById("inputfiled");
+      let todoElemPra = document.querySelector(".todoListElem")
+    //   let todoFirst = document.getElementById("todoFirst");
+    //   console.log(getElem);
+      let clickbtn = document.querySelector(".btn");
+    //   console.log(clickbtn);
+    clickbtn.addEventListener('click' ,() => {
+        addToDo ();
+    });
+    todoElemPra.addEventListener('click',(event) =>{
+        console.log(event.target);
+        let cureentElem = event.target;
+        cureentElem.remove();
+    })
+     </script>
+</body>
+
+</html>
